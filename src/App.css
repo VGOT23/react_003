@@ -1,0 +1,101 @@
+/* Reset a bit */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9; /* light background */
+}
+
+/* Center container in the viewport */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center; /* center title + inputs */
+}
+
+/* Title */
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Search box */
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Add form */
+.form-inline {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.form-inline input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-inline button {
+  padding: 10px 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form-inline button:hover {
+  background: #0056b3;
+}
+
+/* Book list */
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left; /* align book titles to left */
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.book-item span {
+  font-size: 15px;
+  color: #333;
+}
+
+.book-item button {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.book-item button:hover {
+  background: #b02a37;
+}
